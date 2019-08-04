@@ -23,13 +23,14 @@ ul li {
 }
 
 .showcart {
-  position: absolute;
+  position: fixed;
   outline: white;
   width: 60px;
   height: 60px;
   background: black;
   top: 0px;
   right: 15px;
+  z-index: 1
 }
 
 .showcart i {
@@ -61,7 +62,7 @@ header h3 {
 }
 
 select {
-  margin-right: 25px;
+  margin-right: 40px;
   height: 25px;
   margin-bottom: 0px;
 }

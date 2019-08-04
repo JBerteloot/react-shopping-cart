@@ -15,3 +15,10 @@ export function add(id) {
     payload: id
   })
 }
+
+export function remove(id) {
+  store.dispatch({
+    type: 'REMOVE_TASK',
+    payload: id
+  })
+}
