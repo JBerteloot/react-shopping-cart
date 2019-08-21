@@ -1,3 +1,5 @@
+Check out the demo of my finalized project at: 
+
 # React Shopping Cart
 
 ## Description
